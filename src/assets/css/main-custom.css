@@ -1,0 +1,99 @@
+.hs-content-wrapper {
+    width: 100%;
+}
+.hs-content {
+    width: 100%;
+    margin-top: 10px;
+    /* margin-left: 300px; */
+}
+.about-section .more-details {
+    margin-left: 0px; 
+    margin-top: 10px;
+}
+.hs-menu nav a .menu_name {
+    text-transform: uppercase;
+}
+.hs-inner h2{
+    font-size: 24px;
+    letter-spacing:normal;
+    font-family: inherit;
+    text-transform: uppercase;
+}
+.clear{
+    clear:both
+}
+.hs-headline .img-wrap{
+    width: 140px;
+    height: 140px;
+}
+.hs-headline .img-wrap img{
+    width: 136px;
+    height: 136px;
+    padding: 2px;
+}
+.hs-menu nav a.is-active {
+    color: #fff;
+    -webkit-transition: all .2s ease;
+    -o-transition: all .2s ease;
+    transition: all .2s ease;
+}
+.aside1 .aside-content{
+    bottom: 250px;
+}
+.resume-wrapper ul.education {
+    border-left: 3px solid #81b3ab;
+    list-style-type: none;
+    margin-bottom: 40px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.resume-wrapper ul.education .smaller {
+    font-size: 16px;
+    line-height: 22px;
+    display: block;
+}
+/* .fa-clock-o, .resume-wrapper .fa-star, .fa-wrench, .fa-globe, .fa-envelope, .fa-cog {
+    opacity: 0.3;
+    margin-right: 10px;
+    font-size: 15px;
+} */
+.bigger {
+    font-size: 18px;
+    display: block;
+    padding-bottom: 8px;
+    text-transform: uppercase;
+}
+.fa-ul>li{
+    font-size: 14px;
+    line-height: 18px;
+}
+.breadcrumb {
+    /* padding: .75rem 1rem; */
+    /* margin-bottom: 1rem; */
+    list-style: none;
+    /* background-color: #e9ecef; */
+    /* border-radius: .25rem; */
+    display: inline-block;
+    padding: 0 10px;
+}
+.breadcrumb::after {
+    display: block;
+    clear: both;
+    content: "";
+}
+#header .breadcrumb a.breadcrumb-item {
+    float: left;
+    width: auto;
+    font-size: 14px;
+}
+.breadcrumb-item+.breadcrumb-item::before {
+    display: inline-block;
+    padding-right: .5rem;
+    padding-left: .5rem;
+    color: #868e96;
+    content: "/";
+}
+.breadcrumb-item.active {
+    color: #81b3ab;
+}

@@ -1,0 +1,17 @@
+.hs-content-wrapper {
+    width: 100%;
+}
+.hs-content {
+    width: 100%;
+    margin-top: 13px;
+}
+.about-section .more-details {
+    margin-left: 0px; 
+    margin-top: 10px;
+}
+.hs-menu nav a .menu_name {
+    text-transform: uppercase;
+}
+.hs-inner h2{
+    font-size: 22px;
+}
